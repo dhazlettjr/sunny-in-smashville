@@ -4,19 +4,29 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel = "stylesheet" type = "text/css" href="main.css" />
   <title>It's always sunny in Smashville</title>
 </head>
 <body>
-  <div class="jumbotron">
-    <h2 class="text-center">Get Current Weather</h2>
-  </div>
-
+  
   <div class="container">
     <div class="row">
+
+        <div class="icon sun-shower">
+            <div class="cloud"></div>
+            <div class="sun">
+              <div class="rays"></div>
+            </div>
+            <div class="rain"></div>
+          </div>
+      
+        <h3 class="text-center"><p class="first">Phyllis:</p> Whoo! Wow, it is raining cats and dogs out there. Holy moley.</h3>
+        <h3 class="text-center"><p class="first">Jim:</p> Phyllis says the same twelve clichés every time it rains. So, I promised everyone that if she says them all by noon today, I will send out for hot chocolates.</h3>
+
       <input type="text" name="city" id="city" class="form-control" placeholder="City Name">
-      <button id="submitWeather" class="btn btn-primary">Search City</button>
+      <button id="submitWeather" type="button">Let's check the weather...</button>
+      <div id="show"></div>
     </div>
-    <div id="show"></div>
   </div>
   <script
   src="https://code.jquery.com/jquery-3.3.1.js"
