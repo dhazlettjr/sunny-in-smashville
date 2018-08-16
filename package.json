@@ -1,0 +1,19 @@
+{
+  "name": "sunny-in-smashville",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dhazlettjr/sunny-in-smashville.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dhazlettjr/sunny-in-smashville/issues"
+  },
+  "homepage": "https://github.com/dhazlettjr/sunny-in-smashville#readme"
+}
